@@ -6,7 +6,7 @@ import numpy as np
 from cv_bridge import CvBridge
 import cv2
 
-bag_write = rosbag.Bag('/data/processedImg.bag','w')
+bag_write = rosbag.Bag('/data/amod19-rh3-ex-process-Elias_Wicki.bag','w')
 
 topics_cam = '/queenmary2/camera_node/image/compressed'
 
